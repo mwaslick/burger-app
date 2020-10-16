@@ -4,8 +4,9 @@
 	{{#if devoured}}
 	<button class="waves-effect waves-light btn deep-orange accent-2 eat-burger" data-id="{{id}}" data-newdevoured="{{devoured}}">
 		DEVOUR IT!
-	</button>
+	</button> {{else}}
+	<button class="waves-effect waves-light btn deep-orange accent-2 delete-burger" data-id="{{this.id}}">DELETE!</button>
 
 {{/if}}
-	<button class="waves-effect waves-light btn deep-orange accent-2 delete-burger" data-id="{{this.id}}">DELETE!</button>
+	
 </li>
