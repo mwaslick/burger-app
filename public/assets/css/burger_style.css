@@ -1,0 +1,30 @@
+body {
+    background-color: #f7e8c4;
+}
+
+h1 {
+   text-align: center;
+   font-family: 'Voltaire', sans-serif;
+   font-size: 85px;
+   color: #9f4282;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 50px;
+    color: #ff1744;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+}
+
+#burgerform {
+    text-align: center;
+}
+
