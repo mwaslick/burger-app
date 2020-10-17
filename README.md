@@ -16,6 +16,8 @@
 
   Eat-Da-Burger is a virtual restaurant application where users can "eat" burgers with the click of a button, input burgers they want to see through a form, and even delete burgers they don't want to see off their list of previously eaten burgers. This application uses a database created with MySQL to store the burger data, and JavaScript, Node.js, Express.js, and Express Handlebars to connect the database to the application. Materialize CSS and Google Fonts are also used in the application layout.
 
+  You can visit the application at https://eat-da-burger-mw-app.herokuapp.com/.
+
 ## Usage
 
 Users can virtually eat burgers on the left-hand side of the application by clicking "DEVOUR IT!", which is on a button next to every burger in the list. Once they have done that, the burger will be moved to the Eaten Burgers column on the right-hand side. If a user wants, they can also delete the burger from the column with the "DELETE!" button. In addition, users can make their own burgers by typing the name of the burger into the "Make a Burger" form, and clicking the "Send to the kitchen!" button. Their newly created burger will then be added to the "Try a Burger" column, and they are free to devour it.
